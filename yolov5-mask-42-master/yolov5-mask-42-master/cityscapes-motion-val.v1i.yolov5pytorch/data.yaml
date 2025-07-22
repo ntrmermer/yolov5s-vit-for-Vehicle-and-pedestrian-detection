@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['bus', 'car', 'caravan', 'pedestrian', 'trailer', 'truck']
+
+roboflow:
+  workspace: military-8jblg
+  project: cityscapes-motion-val
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/military-8jblg/cityscapes-motion-val/dataset/1
